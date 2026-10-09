@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/example/shop-cabinet/internal/auth"
-	"github.com/example/shop-cabinet/internal/config"
-	"github.com/example/shop-cabinet/internal/handler"
-	"github.com/example/shop-cabinet/internal/repository"
-	"github.com/example/shop-cabinet/internal/service"
+	"github.com/alex-zaleskih/interview/internal/auth"
+	"github.com/alex-zaleskih/interview/internal/config"
+	"github.com/alex-zaleskih/interview/internal/handler"
+	"github.com/alex-zaleskih/interview/internal/repository"
+	"github.com/alex-zaleskih/interview/internal/service"
 )
 
 func main() {

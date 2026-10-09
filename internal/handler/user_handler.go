@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/shop-cabinet/internal/model"
+	"github.com/alex-zaleskih/interview/internal/model"
 )
 
 type UserHandler struct {

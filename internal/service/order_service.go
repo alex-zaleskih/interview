@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/example/shop-cabinet/internal/model"
+	"github.com/alex-zaleskih/interview/internal/model"
 )
 
 const (

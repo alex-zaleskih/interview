@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/example/shop-cabinet/internal/model"
+	"github.com/alex-zaleskih/interview/internal/model"
 )
 
 // ErrInvalidCredentials is returned when login fails.

@@ -1,4 +1,4 @@
-module github.com/example/shop-cabinet
+module github.com/alex-zaleskih/interview
 
 go 1.25.0
 

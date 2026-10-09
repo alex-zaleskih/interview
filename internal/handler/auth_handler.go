@@ -7,9 +7,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/shop-cabinet/internal/auth"
-	"github.com/example/shop-cabinet/internal/model"
-	"github.com/example/shop-cabinet/internal/service"
+	"github.com/alex-zaleskih/interview/internal/auth"
+	"github.com/alex-zaleskih/interview/internal/model"
+	"github.com/alex-zaleskih/interview/internal/service"
 )
 
 type UserService interface {

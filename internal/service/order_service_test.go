@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/example/shop-cabinet/internal/model"
+	"github.com/alex-zaleskih/interview/internal/model"
 )
 
 type fakeOrderRepository struct {

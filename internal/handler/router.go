@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/shop-cabinet/internal/auth"
+	"github.com/alex-zaleskih/interview/internal/auth"
 )
 
 type Deps struct {

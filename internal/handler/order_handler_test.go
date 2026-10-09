@@ -12,8 +12,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/shop-cabinet/internal/auth"
-	"github.com/example/shop-cabinet/internal/model"
+	"github.com/alex-zaleskih/interview/internal/auth"
+	"github.com/alex-zaleskih/interview/internal/model"
 )
 
 const testUserID = "652f1a000000000000000001"
