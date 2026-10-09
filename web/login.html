@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход — Demo Shop</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="login-page">
+  <main class="card login">
+    <a class="brand brand--large" href="/">Demo<span>Shop</span></a>
+    <h1 class="login__title">Вход в личный кабинет</h1>
+
+    <form id="login-form" class="login__form" novalidate>
+      <label class="field">
+        <span class="field__label">Email</span>
+        <input id="email" class="field__input" type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+      </label>
+      <p id="login-error" class="form-error" hidden></p>
+      <button id="login-submit" class="button button--primary button--block" type="submit">Войти</button>
+    </form>
+
+    <div class="login__demo">
+      <p class="muted">Демо-аккаунты (пароль не нужен):</p>
+      <div class="chips">
+        <button class="chip" type="button" data-email="ivan@example.com">ivan@example.com</button>
+        <button class="chip" type="button" data-email="maria@example.com">maria@example.com</button>
+        <button class="chip" type="button" data-email="alexey@example.com">alexey@example.com</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="/static/js/login.js"></script>
+</body>
+</html>

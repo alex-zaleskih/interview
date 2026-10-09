@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Личный кабинет — Demo Shop</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="/">Demo<span>Shop</span></a>
+      <div class="topbar__user">
+        <span id="topbar-user-name" class="topbar__name"></span>
+        <button id="logout-button" class="button button--ghost" type="button">Выйти</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <h1 class="page__title">Личный кабинет</h1>
+
+    <div class="layout">
+      <aside class="card profile" id="profile">
+        <div class="profile__loading muted">Загрузка профиля…</div>
+      </aside>
+
+      <section class="card orders">
+        <div class="card__header">
+          <h2 class="card__title">Мои заказы</h2>
+          <span id="orders-count" class="muted"></span>
+        </div>
+
+        <div id="orders-state" class="state"></div>
+
+        <div class="table-wrapper" id="orders-table-wrapper" hidden>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Номер</th>
+                <th>Дата</th>
+                <th>Статус</th>
+                <th class="num">Товаров</th>
+                <th class="num">Сумма</th>
+              </tr>
+            </thead>
+            <tbody id="orders-body"></tbody>
+          </table>
+        </div>
+
+        <nav class="pagination" id="pagination" hidden>
+          <button id="prev-page" class="button button--ghost" type="button">← Назад</button>
+          <span id="page-info" class="muted"></span>
+          <button id="next-page" class="button button--ghost" type="button">Вперёд →</button>
+        </nav>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>
